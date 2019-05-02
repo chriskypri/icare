@@ -8,7 +8,7 @@ git_source(:github) do |repo_name|
 end
 
 ruby '2.6.3'
-gem 'rails', '5.2.3'
+gem 'rails', '6.0.0.rc1'
 
 # Servers
 gem 'puma', '~> 3.12'
@@ -93,11 +93,10 @@ group :development do
   gem 'better_errors', '~> 2.5'
   gem 'binding_of_caller', '~> 0.8.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
-  gem 'meta_request', '~> 0.7.0'
   gem 'spring', '~> 2.0'
   gem 'spring-commands-rspec', '~> 1.0'
   gem 'spring-watcher-listen', '~> 2.0'
-  gem 'web-console', '~> 3.7'
+  gem 'web-console', '~> 4.0'
 end
 
 group :test do
