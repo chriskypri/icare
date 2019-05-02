@@ -5,6 +5,13 @@ GIT
     validates_timeliness-mongoid (0.1.0)
       validates_timeliness (~> 4.0.0)
 
+GIT
+  remote: https://github.com/jpawlyn/rabl.git
+  revision: 56a3dd06c797d177f9b3dc725f1875f01f1aab58
+  specs:
+    rabl (0.14.1)
+      activesupport (>= 2.3.14)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -274,8 +281,6 @@ GEM
       pry (>= 0.10.4)
     public_suffix (3.0.3)
     puma (3.12.1)
-    rabl (0.14.1)
-      activesupport (>= 2.3.14)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -492,7 +497,7 @@ DEPENDENCIES
   pry-byebug (~> 3.7)
   pry-rails (~> 0.3.9)
   puma (~> 3.12)
-  rabl (~> 0.14.1)
+  rabl!
   rails (= 6.0.0.rc1)
   rspec-rails (~> 3.8)
   rubocop (~> 0.68.1)
